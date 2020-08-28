@@ -1,0 +1,875 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Kinetic Drones">
+    <meta name="keywords" content="drone, Kinetic">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Kinetic Drones</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
+
+    <!-- CSS Styles -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css">
+    <link rel="stylesheet" href="css/elegant-icons.css" type="text/css">
+    <link rel="stylesheet" href="css/nice-select.css" type="text/css">
+    <link rel="stylesheet" href="css/magnific-popup.css" type="text/css">
+    <link rel="stylesheet" href="css/jquery-ui.min.css" type="text/css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css" type="text/css">
+    <link rel="stylesheet" href="css/slicknav.min.css" type="text/css">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+</head>
+
+<body>
+    <!-- Page Preloder -->
+    <div id="preloder">
+        <div class="loader"></div>
+    </div>
+
+    <!-- Offcanvas Menu Begin -->
+    <div class="offcanvas-menu-overlay"></div>
+    <div class="offcanvas-menu-wrapper">
+        <div class="offcanvas__widget">
+            <a href="#"><i class="fa fa-cart-plus"></i></a>
+            <a href="#" class="search-switch"><i class="fa fa-search"></i></a>
+            <a href="#" class="primary-btn">Add Drone</a>
+        </div>
+        <div class="offcanvas__logo">
+            <a href="./index.html"><img src="img/logo.png" alt=""></a>
+        </div>
+        <div id="mobile-menu-wrap"></div>
+        <ul class="offcanvas__widget__add">
+            <li><i class="fa fa-clock-o"></i> Mon - Fri 9:00 am to 17:00 pm</li>
+            <li><i class="fa fa-envelope-o"></i> KineticDrones@pm.me</li>
+        </ul>
+        <div class="offcanvas__phone__num">
+            <i class="fa fa-phone"></i>
+            <span>(+12) 345 678 910</span>
+        </div>
+        <div class="offcanvas__social">
+            <a href="#"><i class="fa fa-facebook"></i></a>
+            <a href="#"><i class="fa fa-twitter"></i></a>
+            <a href="#"><i class="fa fa-google"></i></a>
+            <a href="#"><i class="fa fa-instagram"></i></a>
+        </div>
+    </div>
+    <!-- Offcanvas Menu End -->
+
+    <!-- Header Section Begin -->
+    <header class="header">
+        <div class="header__top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-7">
+                        <ul class="header__top__widget">
+                            <li><i class="fa fa-clock-o"></i> Mon - Fri: 09:00 am to 17:00 pm</li>
+                            <li><i class="fa fa-envelope-o"></i> KineticDrones@pm.me</li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-5">
+                        <div class="header__top__right">
+                            <div class="header__top__phone">
+                                <i class="fa fa-phone"></i>
+                                <span>(+12) 345 678 910</span>
+                            </div>
+                            <div class="header__top__social">
+                                <a href="#"><i class="fa fa-youtube"></i></a>
+                                <a href="#"><i class="fa fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-2">
+                    <div class="header__logo">
+                        <a href="./index.html"><img src="img/logo.png" alt=""></a>
+                    </div>
+                </div>
+                <div class="col-lg-10">
+                    <div class="header__nav">
+                        <nav class="header__menu">
+                            <ul>
+                                <li class="active"><a href="./index.html">Home</a></li>
+                                <li><a href="./best-drones.html">Best Drones</a>
+                                    <ul class="dropdown">
+                                        <li><a href="./about.html">Camera Drones</a></li>
+                                        <li><a href="./best-drone-details.html">FPV Drones</a></li>
+                                        <li><a href="./blog-details.html">Best Cheap Drones</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="./drones.html">Reviews</a>
+                                    <ul class="dropdown">
+                                        <li><a href="./about.html">Unboxing</a></li>
+                                        <li><a href="./drone-details.html">Flight Tests</a></li>
+                                        <li><a href="./drone-details.html">Overall Reviews</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="./about.html">About</a></li>
+                                <li><a href="./contact.html">Contact</a></li>
+                            </ul>
+                        </nav>
+                        <div class="header__nav__widget">
+                            <div class="header__nav__widget__btn">
+                                <a href="#"><i class="fa fa-cart-plus"></i></a>
+                                <a href="#" class="search-switch"><i class="fa fa-search"></i></a>
+                            </div>
+                            <a href="#" class="primary-btn">Add Drone</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="canvas__open">
+                <span class="fa fa-bars"></span>
+            </div>
+        </div>
+    </header>
+    <!-- Header Section End -->
+
+    <!-- Hero Section Begin -->
+    <section class="hero spad set-bg" data-setbg="img/drone-home.jpg">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-7">
+                    <div class="hero__text">
+                        <div class="hero__text__title">
+                            <span>FIND YOUR DREAM DRONE</span>
+                            <h2 style="color:#0088FF;">DJI Mavic Mini</h2>
+                        </div>
+                        <div class="hero__text__price">
+                            <div class="car-model">DJI Mavic Mini</div>
+                                <h2 style="color:#0088FF;">£36<span>/Month</span></h2>
+                        </div>
+                        <a href="#" class="primary-btn"><img src="img/wheel.png" alt=""> Test Flight</a>
+                        <a href="#" class="primary-btn" >Learn More</a>
+                    </div>
+                </div>
+                <div class="col-lg-5">
+                    <div class="hero__tab">
+                        <ul class="nav nav-tabs" role="tablist">
+                            <li class="nav-item">
+                                <a class="nav-link active" data-toggle="tab" href="#tabs-1" role="tab">Purchase a Drone</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" data-toggle="tab" href="#tabs-2" role="tab">Rent a Drone</a>
+                            </li>
+                        </ul>
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="tabs-1" role="tabpanel">
+                                <div class="hero__tab__form">
+                                    <h2>Find Your Dream Drone</h2>
+                                    <form>
+                                        <div class="select-list">
+                                            <div class="select-list-item">
+                                                <p>Select Weight</p>
+                                                <select>
+                                                    <option data-display=" ">Select Weight</option>
+                                                    <option value="">More than 1 Kilogram</option>
+                                                    <option value="">1 Kilogram or less</option>
+                                                    <option value="">500 grams or less</option>
+                                                    <option value="">249 grams or less</option>
+                                                    <option value="">Any</option>
+                                                </select>
+                                            </div>
+                                            <div class="select-list-item">
+                                                <p>Select Type</p>
+                                                <select>
+                                                    <option data-display=" ">Select Type</option>
+                                                    <option value="">FPV (First Person View)</option>
+                                                    <option value="">Camera Drone</option>
+                                                    <option value="">Any</option>
+                                                </select>
+                                            </div>
+                                            <div class="select-list-item">
+                                                <p>Select Camera Resolution</p>
+                                                <select>
+                                                    <option data-display=" ">Select Camera Resolution</option>
+                                                    <option value="">4K</option>
+                                                    <option value="">2.7K</option>
+                                                    <option value="">1080p</option>
+                                                    <option value="">720p</option>
+                                                    <option value="">Any</option>
+                                                </select>
+                                            </div>
+                                            <div class="select-list-item">
+                                                <p>Select Condition</p>
+                                                <select>
+                                                    <option data-display=" ">Select Condition</option>
+                                                    <option value="">New</option>
+                                                    <option value="">Second Hand</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="car-price">
+                                            <p>Price Range:</p>
+                                            <div class="price-range-wrap">
+                                                <div class="price-range"></div>
+                                                <div class="range-slider">
+                                                    <div class="price-input">
+                                                        <input type="text" id="amount">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <button type="submit" class="site-btn">Search</button>
+                                    </form>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="tabs-2" role="tabpanel">
+                                <div class="hero__tab__form">
+                                    <h2>Rent Your Dream Drone</h2>
+                                    <form>
+                                        <div class="select-list">
+                                            <div class="select-list-item">
+                                                <p>Select Weight</p>
+                                                <select>
+                                                    <option data-display=" ">Select Weight</option>
+                                                    <option value="">More than 1 Kilogram</option>
+                                                    <option value="">1 Kilogram or less</option>
+                                                    <option value="">500 grams or less</option>
+                                                    <option value="">249 grams or less</option>
+                                                    <option value="">Any</option>
+                                                </select>
+                                            </div>
+                                            <div class="select-list-item">
+                                                <p>Select Type</p>
+                                                <select>
+                                                    <option data-display=" ">Select Type</option>
+                                                    <option value="">FPV (First Person View)</option>
+                                                    <option value="">Camera Drone</option>
+                                                    <option value="">Any</option>
+                                                </select>
+                                            </div>
+                                            <div class="select-list-item">
+                                                <p>Select Camera Resolution</p>
+                                                <select>
+                                                    <option data-display=" ">Select Camera Resolution</option>
+                                                    <option value="">4K</option>
+                                                    <option value="">2.7K</option>
+                                                    <option value="">1080p</option>
+                                                    <option value="">720p</option>
+                                                    <option value="">Any</option>
+                                                </select>
+                                            </div>
+                                            <div class="select-list-item">
+                                                <p>Select Condition</p>
+                                                <select>
+                                                    <option data-display=" ">Select Condition</option>
+                                                    <option value="">New</option>
+                                                    <option value="">Second Hand</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="car-price">
+                                            <p>Price Range:</p>
+                                            <div class="price-range-wrap">
+                                                <div class="price-range"></div>
+                                                <div class="range-slider">
+                                                    <div class="price-input">
+                                                        <input type="text" id="amount">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <button type="submit" class="site-btn">Search</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Hero Section End -->
+
+    <!-- Services Section Begin -->
+    <section class="services spad">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="section-title">
+                        <span>Our Services</span>
+                        <h2>What We Offer</h2>
+                        <p>We help you make the right decisions.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="services__item">
+                        <img src="img/services/services-2.png" alt="">
+                        <h5>Advice and Guidance</h5>
+                        <p>There are many drone brands. Some offer <strong>outstanding</strong> products whilst others less so. We help you find the best drone for you.</p>
+                        <a href="#"><i class="fa fa-long-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="services__item">
+                        <img src="img/services/services-1.png" alt="">
+                        <h5>Drones for Rent</h5>
+                        <p>We are currently the only company which lets you rent drones. This is great as you can try several drones before settling on which one is <strong>best</strong>.</p>
+                        <a href="#"><i class="fa fa-long-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="services__item">
+                        <img src="img/services/services-3.png" alt="">
+                        <h5>Recommendations</h5>
+                        <p>We write articles on many different drones so that you can find the best, cheapest and most reliable drones out on the market.</p>
+                        <a href="#"><i class="fa fa-long-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="services__item">
+                        <img src="img/services/services-4.png" alt="">
+                        <h5>Support</h5>
+                        <p>We are always happy to answer your questions. Our phone lines are currently busy. Feel free to ask us any questions by email instead.</p>
+                        <a href="#"><i class="fa fa-long-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Services Section End -->
+
+    <!-- Feature Section Begin -->
+    <section class="feature spad">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="feature__text">
+                        <div class="section-title">
+                            <span>Our Features</span>
+                            <h2>We Are a Trusted Name In Tech</h2>
+                        </div>
+                        <div class="feature__text__desc">
+                            <p>We are a group of engineers, tech enthusiasts and we all love drones.</p>
+                            <p>We have an experienced team of technologists, engineers and mathematicians. Our drones are packed with extraordinary tech.</p>
+                        </div>
+                        <div class="feature__text__btn">
+                            <a href="#" class="primary-btn">About Us</a>
+                            <a href="#" class="primary-btn partner-btn">Our Partners</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 offset-lg-4">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-4 col-6">
+                            <div class="feature__item">
+                                <div class="feature__item__icon">
+                                    <img src="img/feature/feature-1.png" alt="">
+                                </div>
+                                <h6>Smart Battery</h6>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-4 col-6">
+                            <div class="feature__item">
+                                <div class="feature__item__icon">
+                                    <img src="img/feature/feature-2.png" alt="">
+                                </div>
+                                <h6>Brushless Motors</h6>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-4 col-6">
+                            <div class="feature__item">
+                                <div class="feature__item__icon">
+                                    <img src="img/feature/feature-3.png" alt="">
+                                </div>
+                                <h6>Cooling System</h6>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-4 col-6">
+                            <div class="feature__item">
+                                <div class="feature__item__icon">
+                                    <img src="img/feature/feature-4.png" alt="">
+                                </div>
+                                <h6>Fast and Efficient</h6>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-4 col-6">
+                            <div class="feature__item">
+                                <div class="feature__item__icon">
+                                    <img src="img/feature/feature-5.png" alt="">
+                                </div>
+                                <h6>Camera Footage</h6>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-4 col-6">
+                            <div class="feature__item">
+                                <div class="feature__item__icon">
+                                    <img src="img/feature/feature-6.png" alt="">
+                                </div>
+                                <h6>Eco-Friendly</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Feature Section End -->
+
+    <!-- Drone Section Begin -->
+    <section class="car spad">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="section-title">
+                        <span>Potensic, DJI, iFlight, Ryze, Eachine, Parrot</span>
+                        <h2>Best Drone Offers</h2>
+                    </div>
+                    <ul class="filter__controls">
+                        <li class="active" data-filter="*">Most Searched</li>
+                        <li data-filter=".sale">Latest on sale</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row car-filter">
+                <div class="col-lg-3 col-md-4 col-sm-6 mix">
+                    <div class="car__item">
+                        <div class="car__item__pic__slider owl-carousel">
+                            <img src="img/drones/Dreamer-1.png" alt="">
+                            <img src="img/drones/Dreamer-2.png" alt="">
+                            <img src="img/drones/Dreamer-3.png" alt="">
+                            <img src="img/drones/Dreamer-4.png" alt="">
+                        </div>
+                        <div class="car__item__text">
+                            <div class="car__item__text__inner">
+                                <div class="label-date">Potensic</div>
+                                <h5><a href="https://www.potensic.com/dreamer-4K">Dreamer 4K</a></h5>
+                                <ul>
+                                    <li><span>765g</span></li>
+                                    <li><span>31-min</span> Flight</li>
+                                    <li><span>800m</span> Distance</li>
+                                    <li><span>4K</span> Camera</li>
+                                </ul>
+                            </div>
+                            <div class="car__item__price">
+                                <span class="car-option sale">For Sale</span>
+                                <h6>£236</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 mix sale">
+                    <div class="car__item">
+                        <div class="car__item__pic__slider owl-carousel">
+                            <img src="img/drones/Mavic Mini-1.jpg" alt="">
+                            <img src="img/drones/Mavic Mini-2.png" alt="">
+                            <img src="img/drones/Mavic Mini-3.png" alt="">
+                            <img src="img/drones/Mavic Mini-4.png" alt="">
+                        </div>
+                        <div class="car__item__text">
+                            <div class="car__item__text__inner">
+                                <div class="label-date">DJI</div>
+                                <h5><a href="#">Mavic Mini</a></h5>
+                                <ul>
+                                    <li><span>249g</span></li>
+                                    <li><span>30-min</span> Flight</li>
+                                    <li><span>3</span>-Axis Gimbal</li>
+                                    <li><span>2.7K</span> Camera</li>
+                                </ul>
+                            </div>
+                            <div class="car__item__price">
+                                <span class="car-option">For Rent</span>
+                                <h6>£36<span>/Month</span></h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 mix">
+                    <div class="car__item">
+                        <div class="car__item__pic__slider owl-carousel">
+                            <img src="img/drones/Nazgul5-1.png" alt="">
+                            <img src="img/drones/Nazgul5-2.png" alt="">
+                            <img src="img/drones/Nazgul5-3.png" alt="">
+                            <img src="img/drones/Nazgul5-4.png" alt="">
+                        </div>
+                        <div class="car__item__text">
+                            <div class="car__item__text__inner">
+                                <div class="label-date">iFlight</div>
+                                <h5><a href="#">Nazgul 5</a></h5>
+                                <ul>
+                                    <li><span>362g + Battery</span></li>
+                                    <li><span>FPV</span></li>
+                                    <li><span>Freestyle</span></li>
+                                    <li><span>GoPro</span> Compatible</li>
+                                </ul>
+                            </div>
+                            <div class="car__item__price">
+                                <span class="car-option">For Rent</span>
+                                <h6>£32<span>/Month</span></h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 mix sale">
+                    <div class="car__item">
+                        <div class="car__item__pic__slider owl-carousel">
+                            <img src="img/drones/Tello-1.png" alt="">
+                            <img src="img/drones/Tello-2.png" alt="">
+                            <img src="img/drones/Tello-3.png" alt="">
+                            <img src="img/drones/Tello-4.jpg" alt="">
+                        </div>
+                        <div class="car__item__text">
+                            <div class="car__item__text__inner">
+                                <div class="label-date">Ryze</div>
+                                <h5><a href="#">Tello</a></h5>
+                                <ul>
+                                    <li><span>80g</span></li>
+                                    <li><span>13-min</span> Flight</li>
+                                    <li><span>Programmable</span></li>
+                                    <li><span>720P</span> Camera</li>
+                                </ul>
+                            </div>
+                            <div class="car__item__price">
+                                <span class="car-option sale">For Sale</span>
+                                <h6>£129</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 mix">
+                    <div class="car__item">
+                        <div class="car__item__pic__slider owl-carousel">
+                            <img src="img/drones/EX5-1.png" alt="">
+                            <img src="img/drones/EX5-2.png" alt="">
+                            <img src="img/drones/EX5-3.png" alt="">
+                            <img src="img/drones/EX5-4.png" alt="">
+                        </div>
+                        <div class="car__item__text">
+                            <div class="car__item__text__inner">
+                                <div class="label-date">Eachine</div>
+                                <h5><a href="#">EX5</a></h5>
+                                <ul>
+                                    <li><span>229g</span></li>
+                                    <li><span>30-min</span> Flight</li>
+                                    <li><span>Servo Gimbal</span></li>
+                                    <li><span>4K</span> Camera</li>
+                                </ul>
+                            </div>
+                            <div class="car__item__price">
+                                <span class="car-option sale">For Sale</span>
+                                <h6>£319<span></span></h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 mix sale">
+                    <div class="car__item">
+                        <div class="car__item__pic__slider owl-carousel">
+                            <img src="img/drones/Anafi-1.png" alt="">
+                            <img src="img/drones/Anafi-2.png" alt="">
+                            <img src="img/drones/Anafi-3.png" alt="">
+                            <img src="img/drones/Anafi-4.png" alt="">
+                        </div>
+                        <div class="car__item__text">
+                            <div class="car__item__text__inner">
+                                <div class="label-date">Parrot</div>
+                                <h5><a href="#">Anafi</a></h5>
+                                <ul>
+                                    <li><span>320g</span></li>
+                                    <li><span>25-min</span> Flight</li>
+                                    <li><span>3</span>-Axis Hybrid</li>
+                                    <li><span>4K</span> Camera</li>
+                                </ul>
+                            </div>
+                            <div class="car__item__price">
+                                <span class="car-option sale">For Sale</span>
+                                <h6>£669</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 mix">
+                    <div class="car__item">
+                        <div class="car__item__pic__slider owl-carousel">
+                            <img src="img/drones/D58-1.png" alt="">
+                            <img src="img/drones/D58-2.png" alt="">
+                            <img src="img/drones/D58-3.png" alt="">
+                            <img src="img/drones/D58-4.png" alt="">
+                        </div>
+                        <div class="car__item__text">
+                            <div class="car__item__text__inner">
+                                <div class="label-date">Potensic</div>
+                                <h5><a href="#">D58</a></h5>
+                                <ul>
+                                    <li><span>233g</span></li>
+                                    <li><span>32min</span> Flight</li>
+                                    <li><span>2</span> Batteries</li>
+                                    <li><span>2K</span> Camera</li>
+                                </ul>
+                            </div>
+                            <div class="car__item__price">
+                                <span class="car-option">For Rent</span>
+                                <h6>£422<span>/Month</span></h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 mix">
+                    <div class="car__item">
+                        <div class="car__item__pic__slider owl-carousel">
+                            <img src="img/drones/Phantom-1.png" alt="">
+                            <img src="img/drones/Phantom-2.png" alt="">
+                            <img src="img/drones/Phantom-3.png" alt="">
+                            <img src="img/drones/Phantom-4.png" alt="">
+                        </div>
+                        <div class="car__item__text">
+                            <div class="car__item__text__inner">
+                                <div class="label-date">DJI</div>
+                                <h5><a href="#">Phantom 4 Pro V2.0</a></h5>
+                                <ul>
+                                    <li><span>1375g</span></li>
+                                    <li><span>30-min</span> Flight</li>
+                                    <li><span>Gimbal</span> Camera</li>
+                                    <li><span>4K</span> Camera</li>
+                                </ul>
+                            </div>
+                            <div class="car__item__price">
+                                <span class="car-option">For Rent</span>
+                                <h6>£322<span>/Month</span></h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Drone Section End -->
+
+    <!-- Chooseus Section Begin -->
+    <section class="chooseus spad">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5">
+                    <div class="chooseus__text">
+                        <div class="section-title">
+                            <h2>Why People Choose Us</h2>
+                            <p>Duis aute irure dolorin reprehenderits volupta velit dolore fugiat nulla pariatur
+                                excepteur sint occaecat cupidatat.</p>
+                        </div>
+                        <ul>
+                            <li><i class="fa fa-check-circle"></i> Trustworthy and reliable.</li>
+                            <li><i class="fa fa-check-circle"></i> Eco-friendly.</li>
+                            <li><i class="fa fa-check-circle"></i> Nunc nisl placerat tempus.</li>
+                            <li><i class="fa fa-check-circle"></i> We are good.</li>
+                        </ul>
+                        <a href="#" class="primary-btn">About Us</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="chooseus__video set-bg">
+            <img src="img/chooseus-video.png" alt="">
+            <a href="https://www.youtube.com/watch?v=EfYHWJeboYE"
+                class="play-btn video-popup"><i class="fa fa-play"></i></a>
+        </div>
+    </section>
+    <!-- Chooseus Section End -->
+
+    <!-- Latest Blog Section Begin -->
+    <section class="latest spad">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="section-title">
+                        <span>Our Blog</span>
+                        <h2>Latest News Updates</h2>
+                        <p>Sign up for the latest Automobile Industry information and more. Duis aute<br /> irure
+                            dolorin reprehenderits volupta velit dolore fugiat.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6">
+                    <div class="latest__blog__item">
+                        <div class="latest__blog__item__pic set-bg" data-setbg="img/latest-blog/lb-1.jpg">
+                            <ul>
+                                <li>By Polly Williams</li>
+                                <li>Dec 19, 2018</li>
+                                <li>Comment</li>
+                            </ul>
+                        </div>
+                        <div class="latest__blog__item__text">
+                            <h5>Benjamin Franklin S Method Of Habit Formation</h5>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                                ut labore et dolore magna aliqua. Risus commodo viverra maecenas accumsan lacus vel
+                                facilisis.</p>
+                            <a href="#">View More <i class="fa fa-long-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="latest__blog__item">
+                        <div class="latest__blog__item__pic set-bg" data-setbg="img/latest-blog/lb-2.jpg">
+                            <ul>
+                                <li>By Mattie Ramirez</li>
+                                <li>Dec 19, 2018</li>
+                                <li>Comment</li>
+                            </ul>
+                        </div>
+                        <div class="latest__blog__item__text">
+                            <h5>How To Set Intentions That Energize You</h5>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                                ut labore et dolore magna aliqua. Risus commodo viverra maecenas accumsan lacus vel
+                                facilisis.</p>
+                            <a href="#">View More <i class="fa fa-long-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="latest__blog__item">
+                        <div class="latest__blog__item__pic set-bg" data-setbg="img/latest-blog/lb-3.jpg">
+                            <ul>
+                                <li>By Nicholas Brewer</li>
+                                <li>Dec 19, 2018</li>
+                                <li>Comment</li>
+                            </ul>
+                        </div>
+                        <div class="latest__blog__item__text">
+                            <h5>Burning Desire Golden Key Or Red Herring</h5>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                                ut labore et dolore magna aliqua. Risus commodo viverra maecenas accumsan lacus vel
+                                facilisis.</p>
+                            <a href="#">View More <i class="fa fa-long-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Latest Blog Section End -->
+
+    <!-- Cta Begin -->
+    <div class="cta">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-6">
+                    <div class="cta__item set-bg" data-setbg="img/cta/cta-1.jpg">
+                        <h4>Do You Want To Buy A Drone</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</p>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6">
+                    <div class="cta__item set-bg" data-setbg="img/cta/cta-2.jpg">
+                        <h4>Do You Want To Rent A Drone</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Cta End -->
+
+    <!-- Footer Section Begin -->
+    <footer class="footer set-bg" data-setbg="img/footer-bg.jpg">
+        <div class="container">
+            <div class="footer__contact">
+                <div class="row">
+                    <div class="col-lg-6 col-md-6">
+                        <div class="footer__contact__title">
+                            <h2>Contact Us!</h2>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6">
+                        <div class="footer__contact__option">
+                            <div class="option__item"><i class="fa fa-phone"></i> (+12) 345 678 910</div>
+                            <div class="option__item email"><i class="fa fa-envelope-o"></i>KineticDrones@pm.me</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-4">
+                    <div class="footer__about">
+                        <div class="footer__logo">
+                            <a href="#"><img src="img/footer-logo.png" alt=""></a>
+                        </div>
+                        <p>Any questions? Let us know by email.</p>
+                        <div class="footer__social">
+                            <a href="#" class="google"><i class="fa fa-youtube"></i></a>
+                            <a href="#" class="twitter"><i class="fa fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 offset-lg-1 col-md-3">
+                    <div class="footer__widget">
+                        <h5>Infomation</h5>
+                        <ul>
+                            <li><a href="#"><i class="fa fa-angle-right"></i> Purchase</a></li>
+                            <li><a href="#"><i class="fa fa-angle-right"></i> Payemnt</a></li>
+                            <li><a href="#"><i class="fa fa-angle-right"></i> Shipping</a></li>
+                            <li><a href="#"><i class="fa fa-angle-right"></i> Return</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-3">
+                    <div class="footer__widget">
+                        <h5>Infomation</h5>
+                        <ul>
+                            <li><a href="#"><i class="fa fa-angle-right"></i> FPV</a></li>
+                            <li><a href="#"><i class="fa fa-angle-right"></i> Freestyle</a></li>
+                            <li><a href="#"><i class="fa fa-angle-right"></i> Camera</a></li>
+                            <li><a href="#"><i class="fa fa-angle-right"></i> Film</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="footer__brand">
+                        <h5>Top Brand</h5>
+                        <ul>
+                            <li><a href="#"><i class="fa fa-angle-right"></i> Abarth</a></li>
+                            <li><a href="#"><i class="fa fa-angle-right"></i> Acura</a></li>
+                            <li><a href="#"><i class="fa fa-angle-right"></i> Alfa Romeo</a></li>
+                            <li><a href="#"><i class="fa fa-angle-right"></i> Audi</a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="#"><i class="fa fa-angle-right"></i> BMW</a></li>
+                            <li><a href="#"><i class="fa fa-angle-right"></i> Chevrolet</a></li>
+                            <li><a href="#"><i class="fa fa-angle-right"></i> Ferrari</a></li>
+                            <li><a href="#"><i class="fa fa-angle-right"></i> Honda</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+            <div class="footer__copyright__text">
+                <p>Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a></p>
+            </div>
+            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+        </div>
+    </footer>
+    <!-- Footer Section End -->
+
+    <!-- Search Begin -->
+    <div class="search-model">
+        <div class="h-100 d-flex align-items-center justify-content-center">
+            <div class="search-close-switch">+</div>
+            <form class="search-model-form">
+                <input type="text" id="search-input" placeholder="Search here.....">
+            </form>
+        </div>
+    </div>
+    <!-- Search End -->
+
+    <!-- JS Plugins -->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.nice-select.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/mixitup.min.js"></script>
+    <script src="js/jquery.slicknav.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
